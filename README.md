@@ -13,4 +13,6 @@
 
 ### pip安装
 
-   - pip install python-aliyun-api-gateway
+```
+    pip install python-aliyun-api-gateway
+```
