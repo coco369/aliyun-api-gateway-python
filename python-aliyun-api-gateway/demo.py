@@ -10,6 +10,6 @@ cli = client.DefaultClient(app_key="key", app_secret="secret")
 
 req_post = request.Request(host=host, protocol=constant.HTTP, url=url, method="GET", time_out=30000)
 
-print('------')
-print(cli.execute(req_post))
+data = cli.execute(req_post)
 
+print(data)
