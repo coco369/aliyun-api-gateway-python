@@ -1,4 +1,4 @@
-from com.aliyun.api.gateway.sdk.common import constant
+from aliyun.api.gateway.sdk.common import constant
 
 
 def build_sign_str(uri=None, method=None, headers=None, body=None):

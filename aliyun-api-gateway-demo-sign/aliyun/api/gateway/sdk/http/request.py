@@ -1,4 +1,4 @@
-from com.aliyun.api.gateway.sdk.common import constant
+from aliyun.api.gateway.sdk.common import constant
 
 
 class Request:

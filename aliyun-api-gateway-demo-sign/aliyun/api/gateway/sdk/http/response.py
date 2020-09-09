@@ -1,10 +1,10 @@
 from urllib.parse import splittype
 
-from com.aliyun.api.gateway.sdk.http.request import Request
+from aliyun.api.gateway.sdk.http.request import Request
 
 from http import client
 import urllib
-from com.aliyun.api.gateway.sdk.common import constant
+from aliyun.api.gateway.sdk.common import constant
 
 
 class Response(Request):

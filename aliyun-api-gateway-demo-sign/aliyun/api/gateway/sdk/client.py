@@ -1,7 +1,7 @@
-from com.aliyun.api.gateway.sdk.util import UUIDUtil, DateUtil
-from com.aliyun.api.gateway.sdk.http.response import Response
-from com.aliyun.api.gateway.sdk.common import constant
-from com.aliyun.api.gateway.sdk.auth import md5_tool, signature_composer, sha_hmac256
+from aliyun.api.gateway.sdk.util import UUIDUtil, DateUtil
+from aliyun.api.gateway.sdk import Response
+from aliyun.api.gateway.sdk.common import constant
+from aliyun.api.gateway.sdk.auth import sha_hmac256, signature_composer, md5_tool
 
 
 class DefaultClient:

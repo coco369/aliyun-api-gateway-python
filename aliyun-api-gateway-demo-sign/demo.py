@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from com.aliyun.api.gateway.sdk import client
-from com.aliyun.api.gateway.sdk.http import request
-from com.aliyun.api.gateway.sdk.common import constant
+from aliyun.api.gateway.sdk import client
+from aliyun.api.gateway.sdk.http import request
+from aliyun.api.gateway.sdk.common import constant
 
 host = "http://api-zto.dml-express.com"
 url = "/api/vrp/express/areas"

@@ -7,17 +7,16 @@ setup(
     description="aliyun api gateway",
     author="wanghaifei",
     author_email='779598160@qq.com',
-    url="https://github.com/coco369",
-    download_url='https://github.com/coco369',
+    url="https://github.com/coco369/aliyun-api-gateway-python",
+    download_url='https://github.com/coco369/aliyun-api-gateway-python',
     keywords=['command', 'line', 'tool'],
     classifiers=[],
     entry_points={
         'console_scripts': [
-        'command1 = advisorhelper.cmdline:execute'
-        'command2 = adviserserver.create_algorithm:run',
-        'command3 = adviserserver.run_algorithm:run'
-    ]
+
+        ]
     },
     install_requires=[
+        'python3.7.6',
     ]
 )
