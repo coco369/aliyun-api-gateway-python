@@ -1,12 +1,33 @@
 Metadata-Version: 1.1
 Name: python-aliyun-api-gateway
-Version: 0.0.1
+Version: 0.0.2
 Summary: aliyun api gateway
 Home-page: https://github.com/coco369/aliyun-api-gateway-python
 Author: wanghaifei
 Author-email: 779598160@qq.com
 License: UNKNOWN
 Download-URL: https://github.com/coco369/aliyun-api-gateway-python
-Description: UNKNOWN
+Description: 
+        阿里云网关API-Python包使用规范
+        -------------------------------------------------
+        
+        
+        ::
+        
+            from aliyun.api.gateway.sdk import client
+            from aliyun.api.gateway.sdk.http import request
+            from aliyun.api.gateway.sdk.common import constant
+        
+            host = "http://xxxx"
+            url = "/api/vrp/express/areas"
+        
+            cli = client.DefaultClient(app_key="key", app_secret="secret")
+        
+            req_post = request.Request(host=host, protocol=constant.HTTP, url=url, method="GET", time_out=30000)
+        
+            data = cli.execute(req_post)
+        
+            print(data)
+        
 Keywords: command,line,tool
 Platform: UNKNOWN
